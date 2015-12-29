@@ -1,6 +1,10 @@
+7- Find the sum of all even and all odd numbers by using for loop.
+
+
+
 #include <stdio.h>
 
-   void main()
+  int main()
  {
      int num , i , evensum=0 , oddsum=0  ;
      
@@ -24,6 +28,17 @@
 
       printf("\nSum of all odd numbers is\n%d", oddsum);
 
-
+      return 0;
  }
+
+
+
+OUTCOME - 
+
+
+	 Enter the number = 50
+
+         Sum of all even numbers is = 625
+    	 Sum of all odd numbers is  = 650
+
 
